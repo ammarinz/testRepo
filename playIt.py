@@ -218,7 +218,7 @@ if __name__ == "__main__":
 
     pose_estimator_game.mode = 'game'            # Set 'game' mode for pose_estimator
 
-    path_to_video = r'D:\job assignments\Moveai-MLCV-Assessment\project\video\cam01_walking_01.mp4'
+    path_to_video = r'video\cam01_walking_01.mp4'
 
     play = playGame()
 
@@ -242,30 +242,3 @@ if __name__ == "__main__":
     except AttributeError:
         print('Folder does not have mp4 videos!,\nplease ensure the video is there.')
         sys.exit()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
